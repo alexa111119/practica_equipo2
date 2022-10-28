@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Departamento de vinculación laboral</title>
     <link rel="stylesheet" type="text/css" href="css/inicio.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 
     <header> 
@@ -21,15 +23,15 @@
   <body>  
     <H1> ¿Quiénes somos?</H1>
 
-    <P>Somo una institución modelo en la educación técnico profesional,con propuestas educativas y pastorales concretas y de calidad,<br> 
+    <P class="text1">Somo una institución modelo en la educación técnico profesional,con propuestas educativas y pastorales concretas y de calidad,<br> 
         con un personal altamente cualificado e identificado con el estilo pedagógico salesiano, que involucre la familia y promueva <br>
          el liderazgo con equidad de género, conservando la credibilidad y la confianza de la sociedad y el empresariado, estando a <br> 
          la vanguardia de la tecnología y las innovaciones educativas, que nos permita ofrecer una formación integral que responda a <br> 
-         las exigencias del mundo actual </P> 
+         las exigencias del mundo actual. </P> 
 
     <h2> Nuestro talleres y su perfil:</h2>     
 
-<h3>Confeccion y patronaje: </h3>
+<h3 >Confeccion y patronaje: </h3>
 <p> MF_407_2: Corte de tejidos y laminados.</p>
 <p> MF_408_2: Corte de pieles y cueros.</p>
 <p> MF_423_2: Montaje y acabado de artículos de marroquinería.</p>
@@ -37,7 +39,7 @@
 
 <h3> Desarrollo de Aplicaciones Informáticas </h3>
 <p> MF_053_3: Análisis y diseño de sistemas informáticos.</p>
-<p> MF_054_3: Desarrollo de aplicaciones y sistemas de información.</p>
+<p>  MF_054_3: Desarrollo de aplicaciones y sistemas de información.</p>
 <p> MF_055_3: Implementación y mantenimiento de aplicaciones y sistemas informáticos.</p>
 <p> MF_056_3: Diseño y desarrollo de base de datos.</p>
 <p> MF_057_3: Administración de base de datos. </p>
@@ -82,7 +84,6 @@
 <p>UC_352_3: Establecer los procesos de mecanizado de los productos por fabricar. </p>
 <p>UC_353_3: Dibujar los productos por fabricar y desarrollar el programa de diseño asistido por computador (CAD). </p>
 <p> UC_362_3: Prevenir los riesgos laborales; y proteger el medioambiente en los procesos industriales de fabricación, instalación y mantenimiento.</p> <br> 
-
 
 </body>
 </html>
