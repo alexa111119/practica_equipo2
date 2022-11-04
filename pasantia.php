@@ -10,10 +10,10 @@
 <header> 
     <nav class="menu">
 <ul>
- <li><a href="index.html">Inicio </a></li>
- <li><a href="pasantia.html"> Pasantía </a></li>
- <li><a href="colaboradores.html">Colaboradores </a></li>
- <li><a href="familia.html">Familia </a></li>
+<li><a href="index.php">Inicio </a></li>
+     <li><a href="pasantia.php"> Pasantía </a></li>
+     <li><a href="colaboradores.php">Colabodores </a></li>
+     <li><a href="familia.php">Familia </a></li>
  </ul>    </nav>
 </header>
 <body>
