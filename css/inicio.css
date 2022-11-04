@@ -3,6 +3,10 @@ header{
     background-color: #4c7aaf;
 }
 
+body{
+    background: rgb(255, 251, 251);
+}
+
 .menu ul{
     margin: 0;
     list-style: none;
@@ -31,8 +35,11 @@ header{
     text-decoration: none;
 }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> cfaf6a86b4d208904497bc2cabf6a3c4dd56f978
 h1, h2{
  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  text-align: center;
@@ -45,11 +52,25 @@ p{
     padding: 5px;
     margin: 10px;
    margin-left: 30px;
+   font-size: 18px;
 }
 
 h3{
     padding: 5px;
     margin: 10px;
     margin-left: 30px;
+    border-top: 1px solid black;
+    height: 2px;
+    width: 200%;
+
+  
 }
 
+.text1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    margin: 10px;
+   margin-left: 30px;
+   text-align: center;
+
+}

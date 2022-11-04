@@ -39,7 +39,7 @@
 
 <br>
 
-    <div class="FPadres"
+    <div class="FPadres">
 <h3>Funciones del padre o tutor del estudiante</h3>
 <p>En referencia al MFCT, serán funciones del padre, madre o tutor:</p>
         <ul>
@@ -53,7 +53,7 @@
 <br>
 <hr>
 <br>
-
+</div>
 <div class="AColabsiscen">
 
 <h3>Acuerdos de colaboración</h3>
@@ -64,7 +64,7 @@
 <p>Los documentos necesarios para la firma del acuerdo se pueden encontrar en el Anexo I II y  III, Acuerdo Sistema Educativo – Centro de Trabajo.</p>
 </div>
 <br>
-<div class="Acolabcencen">
+<div class="AColabcencen">
 <h3>Acuerdo de colaboración entre el centro educativo y el centro de trabajo</h3>
 <p>Es el acuerdo formal entre el centro educativo y un centro de trabajo para el apoyo al  desarrollo de las prácticas formativas MFCT. Es denominado como "Acuerdo Centro  Educativo – Centro de Trabajo". El mismo puede ser suscrito por el centro de trabajo y Centro  Educativo. El mismo se firma previo al Acuerdo Sistema Educativo – Centro de Trabajo, como  una alternativa para agilizar el inicio del desarrollo del MFCT. Este acuerdo solo permite la  vinculación del centro educativo y centro de trabajo firmantes.</p>
 <p>Estos acuerdos serán formalizados por escrito y firmados por el representante autorizado de  la Empresa o Institución colaboradora y el director del centro educativo. Cada una de las  partes recibirá y conservará un ejemplar original.</p>
