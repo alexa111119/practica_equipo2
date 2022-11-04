@@ -67,5 +67,10 @@ h3{
     margin: 10px;
    margin-left: 30px;
    text-align: center;
+}
 
+img{
+    float: right;
+    height: 200px;
+    width: 200px;
 }
