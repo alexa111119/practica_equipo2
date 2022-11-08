@@ -69,7 +69,7 @@
 <p>UC_468_3 Montar sistemas de automatización industrial y robótica.</p> <br> 
 
 <h3> Gestión Administratica y Tributaria </h3>
-<p> UC_361_3: Realizar actividades de información, recepción y comunicación con clientes internos y externos, según los protocolos establecidos en la organización. <img src="imagenes/gat.png"></p>
+<p> UC_361_3: Realizar actividades de información, recepción y comunicación con clientes internos y externos, según los protocolos establecidos en la organización. <img name="GAT" src="imagenes/gat.png"></p>
 <p> UC_362_3: Organizar, actualizar y archivar la información contenida en soporte convencional y/o digital, mediante los procedimientos establecidos de seguridad y protección de datos.</p>
 <p> UC_348_3: Realizar registros de contabilidad en soporte convencional e informático, conforme con la legislación vigente.</p> <br> 
 
