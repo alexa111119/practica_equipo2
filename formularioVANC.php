@@ -8,6 +8,59 @@
     <link rel="stylesheet" type="text/css" href="css/formularioVANC.css">
 </head>
 <body>
+
+<form action=" " method="post">
+ <ul>
+  <li>
+    <label>Nombre de la empresa:</label>
+    <input type="text" id="name" name="nombre_empresa">
+  </li>
+
+  
+  <li>
+    <label>Nombre de la vacante:</label>
+    <input type="text" id="name" name="vacante_nombre">
+  </li>
+
+  <li>
+    <label>Funciones o perfil del puesto:</label>
+    <textarea id="h" name="perfil_puesto"></textarea>
+    
+  </li>
+
+  <li>
+    <label>Sueldo:</label>
+    <input type="text" id="name" name="sueldo">
+  </li>
+  
+  <li>
+    <label>Ubicación:</label>
+    <input type="text" id="mail" name="ubicacion">
+  </li>
+
+  <h3> Tipo de contrato: </h3> 
+  <INPUT TYPE="radio" VALUE="tipo_contrato">Temporal
+
+<INPUT TYPE="radio" NAME="tipo_contrato">Fijo
+
+  <li>
+    <label>Horario:</label>
+    <input type="text" id="name" name="horario">
+  </li>
+
+  <li>
+    <label>Correo al que se debe enviar los curriculum:</label>
+    <input type="email" id="mail" name="correo">
+  </li>
+
+  <li>
+    <label> Persona de contacto:</label>
+    <input type="text"  name="contacto">
+  </li>
+ 
+
+ </ul>
+</form>
     
 </body>
 </html>
