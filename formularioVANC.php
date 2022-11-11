@@ -13,56 +13,57 @@
 <section class="form-register">
 
 <form action=" " method="post">
- <ul>
-  <li>
+ 
     <label>Nombre de la empresa:</label>
     <input type="text" id="name" name="nombre_empresa">
-  </li> <br>  
+   <br>  
 
   
-  <li>
+
     <label>Nombre de la vacante:</label>
     <input type="text" id="name" name="vacante_nombre">
-  </li> <br>
+ <br>
 
-  <li>
+ 
     Funciones o perfil del puesto: <br>
     <textarea  COLS="40" ROWS="4" id="h" name="perfil_puesto"></textarea>
-  </li> <br>
+ <br>
 
-  <li>
+
     <label>Sueldo:</label>
     <input type="text" id="name" name="sueldo">
-  </li> <br>
+ <br>
   
-  <li>
+ 
     <label>Ubicación:</label>
     <input type="text" id="mail" name="ubicacion">
-  </li> <br>
+<br>
 
-  <li>
+
   Tipo de contrato: 
   <INPUT TYPE="radio" VALUE="tipo_contrato">Temporal
-<INPUT TYPE="radio" NAME="tipo_contrato"> Fijo 
-</li> <br>
+ <INPUT TYPE="radio" NAME="tipo_contrato"> Fijo 
+<br>
  
 
+<<<<<<< HEAD
 
   <li>
+=======
+>>>>>>> e3b0f47e733fec5697d7c38a457e73e758cfe60f
     <label>Horario:</label>
     <input type="text" id="name" name="horario">
-  </li> <br>
+ <br>
 
-  <li>
     <label>Correo al que se debe enviar los curriculum:</label>
     <input type="email" id="mail" name="correo">
-  </li> <br>
+  <br>
 
-  <li>
+ 
     <label> Persona de contacto:</label>
     <input type="text"  name="contacto">
-  </li> <br>
- </ul>
+  <br>
+ 
 
  <INPUT TYPE="button" NAME="actualizar" VALUE="Enviar información">
 </form>

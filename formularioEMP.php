@@ -1,68 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario empresa</title>
-    <link rel="stylesheet" type="text/css" href="css/formularioVANC.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Formulario empresa</title>
 </head>
 <body>
 
-<h3>Empresa</h3>
+  <h1>Formulario empresa</h1>
 
-<form action=" " method="post">
- <ul>
-  <li>
-    <label>Nombre de la empresa:</label>
-    <input type="text" id="name" name="nombre_empresa">
-  </li>
-
-  
-  <li>
-    <label>Nombre de la vacante:</label>
-    <input type="text" id="name" name="vacante_nombre" width="90">
-  </li>
-
-  <li>
-    <label>Funciones o perfil del puesto:</label>
-    <textarea id="h" name="perfil_puesto"></textarea>
+  <section class="form-register">
     
-  </li>
 
-  <li>
-    <label>Sueldo:</label>
-    <input type="text" id="name" name="sueldo">
-  </li>
-  
-  <li>
-    <label>Ubicación:</label>
-    <input type="text" id="mail" name="ubicacion">
-  </li>
+    <p>Nombre de la empresa *</p>
+    <input class="controls" type="text" name="nombre_emp" id="nombre_emp" placeholder="Ingrese el nombre de la empresa">
 
-  <h4> Tipo de contrato: </h4> 
-  <INPUT TYPE="radio" VALUE="tipo_contrato">Temporal
+    <p>RNC *</p>
+    <input class="controls" type="text" name="rnc" id="rnc" placeholder="Ingrese RNC">
 
-<INPUT TYPE="radio" NAME="tipo_contrato">Fijo
+    <p>¿Desea que se conozca la identidad de su empresa? *</p>
+    <label>
+      <input class="checkboxs" type="checkbox" name="identidadsi" id="identidadsi"> SI<br>
+      <input class="checkboxs" type="checkbox" name="identidadno" id="identidadno"> NO
+    </label>
 
-  <li>
-    <label>Horario:</label>
-    <input type="text" id="name" name="horario">
-  </li>
+    <p>¿Dispone su empresa de un Departamento de Formación dentro de la empresa? *</p>
+    <label>
+      <input class="checkboxs" type="checkbox" name="DFi" id="DFsi"> SI<br>
+      <input class="checkboxs" type="checkbox" name="DFno" id="DFno"> NO
+    </label>
 
-  <li>
-    <label>Correo al que se debe enviar los curriculum:</label>
-    <input type="email" id="mail" name="correo">
-  </li>
+    <p>Nombre de la empresa *</p>
+    <input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña">
+    <p>Nombre de la empresa *</p>
+    <input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña">
+    <p>Nombre de la empresa *</p>
+    <input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña">
+    <p>Nombre de la empresa *</p>
+    <input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña">
+    <input class="botons" type="submit" value="Finalizado">
+  </section>
 
-  <li>
-    <label> Persona de contacto:</label>
-    <input type="text"  name="contacto">
-  </li>
- 
-
- </ul>
-</form>
-    
 </body>
 </html>
