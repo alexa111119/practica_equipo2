@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="formularioEMP.css">
+  <link rel="stylesheet" href="http://localhost/practica_equipo2/css/formularioEMP.css">
   <title>Formulario empresa</title>
 </head>
 <body>
