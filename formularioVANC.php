@@ -46,6 +46,8 @@
 <INPUT TYPE="radio" NAME="tipo_contrato"> Fijo 
 </li> <br>
  
+
+
   <li>
     <label>Horario:</label>
     <input type="text" id="name" name="horario">
