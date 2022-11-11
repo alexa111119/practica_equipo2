@@ -10,59 +10,51 @@
 
 <body>
     
-<section class="form-register">
 
-<form action=" " method="post">
+<form action="conexion_formularioVan.php " method="post">
  
     <label>Nombre de la empresa:</label>
-    <input type="text" id="name" name="nombre_empresa">
-   <br>  
+    <input type="text" id="name" name="nombre_empresa"> <br>  
 
   
 
     <label>Nombre de la vacante:</label>
-    <input type="text" id="name" name="vacante_nombre">
- <br>
+    <input type="text" id="name" name="vacante_nombre"> <br>
 
  
     Funciones o perfil del puesto: <br>
-    <textarea  COLS="40" ROWS="4" id="h" name="perfil_puesto"></textarea>
- <br>
+    <textarea  COLS="40" ROWS="4" id="h" name="funciones_puesto"></textarea> <br>
 
 
     <label>Sueldo:</label>
-    <input type="text" id="name" name="sueldo">
- <br>
+    <input type="text" id="name" name="sueldo"> <br>
   
  
     <label>Ubicación:</label>
-    <input type="text" id="mail" name="ubicacion">
-<br>
+    <input type="text" id="mail" name="ubicacion"> <br>
 
 
   Tipo de contrato: 
-  <INPUT TYPE="radio" VALUE="tipo_contrato">Temporal
- <INPUT TYPE="radio" NAME="tipo_contrato"> Fijo 
-<br>
+  <INPUT TYPE="radio" NAME="tipo_contrato">Temporal
+ <INPUT TYPE="radio" NAME="tipo_contrato"> Fijo  
+ <br>
  
 
     <label>Horario:</label>
-    <input type="text" id="name" name="horario">
- <br>
+    <input type="text" id="name" name="horario"> <br>
 
     <label>Correo al que se debe enviar los curriculum:</label>
-    <input type="email" id="mail" name="correo">
-  <br>
+    <input type="email" id="mail" name="correo"> <br>
 
  
     <label> Persona de contacto:</label>
-    <input type="text"  name="contacto">
-  <br>
+    <input type="text"  name="Persona_contacto"> <br>
  
+    <label> Telefono del contacto:</label>
+    <input type="text"  name="telefono_contacto"> <br>
 
- <INPUT TYPE="button" NAME="actualizar" VALUE="Enviar información">
+ <INPUT TYPE="submit" NAME="enviar" VALUE="Enviar información">
 </form>
-</section>
 
 </body>
 </html>
