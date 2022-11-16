@@ -107,14 +107,15 @@ UNLOCK TABLES;
 DROP TABLE IF EXISTS `vacantes`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `vacantes` (
+CREATE TABLE vacantes (
   `idVacantes` int NOT NULL AUTO_INCREMENT,
   `Nombre_empresa` varchar(45) DEFAULT NULL,
+  `Nombre_vacante` varchar(45) DEFAULT NULL,
   `Funciones` varchar(45) DEFAULT NULL,
   `Sueldo` int DEFAULT NULL,
   `Ubicacion` varchar(45) DEFAULT NULL,
   `Tipo_contrato` varchar(45) DEFAULT NULL,
-  `Horario` int DEFAULT NULL,
+  `Horario` varchar(45) DEFAULT NULL,
   `Correo` varchar(45) DEFAULT NULL,
   `Persona_contacto` varchar(45) DEFAULT NULL,
   `Telefono` int DEFAULT NULL,
