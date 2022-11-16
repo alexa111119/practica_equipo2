@@ -180,18 +180,21 @@ function insertar ($mysqli){
     $consulta = "INSERT INTO estudiantes (Año_graduacion, Institucion, Matricula, Cedula, Carrera_tecnica, Tecnico_basico, Nombres, Apellidos, Fecha_nacimiento, Sexo, Direccion, Sector, Seccion, Municipio, Provincia, Pais_nacionalidad, Telefono_residencial, Telefono_movil, Email, Contraseña) VALUES('$año','$institucion','$Matricula','$Cedula','$Carrera','$Tecnico','$Nombre','$Apellido','$fecha','$sexo','$direccion','$sector', '$seccion','$municipio','$provincia','$pais', '$telefonoR', '$telefonoM','$email', '$contra')";
 
     
-}
 
+    
 if($_POST["contra"]==$_POST["contra2"])
 {
   mysqli_query($mysqli, $consulta);
     mysqli_close($mysqli);
+    echo "Los datos fueron enviados";
 }else{
 
-echo "no vas";
+echo "Las contraseñas no son iguales";
 }
 
-echo "Los datos fueron enviados";
+}
+
+
 ?>
 </body>
 </html>

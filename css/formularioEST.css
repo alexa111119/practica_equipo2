@@ -30,52 +30,65 @@ header{
     text-decoration: none;
 }
 
-  
-  body {
-    background: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;  
-  }
-  
-  .formulario{
-    background: #FFF;
-    width: 600px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 7px 13px 37px rgba(0, 0, 0, .8);
-  }
-  
 
   
- 
-  input, textarea, select, button {
-    width : 150px;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-
-  
-  
-  .contact textarea {
-    min-height: 100px;
-  }
-  
-  input[type='submit'] {
-    padding: 10px;
-    background: #1e5b94;
-    border: none;
-    color: white;
-    font-size: 20px;
-    /* pointer-events: none; */
-    cursor: pointer;
-  
-  }
-
-  h5{
+h5{
 
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-size: 30px;
+  }
+
+  form{
+    background-color: rgb(154, 199, 218);
+    border-radius: 3px;
+    color: rgb(22, 20, 20);
+    font-size: 0.8em;
+    padding: 35px;
+    margin: 0 auto;
+    width: 300px;
+    font-size: 15px;
+  }
+  
+  h1{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 25px;
+  }
+  
+  input, textarea{
+    border: 0;
+    outline: none;
+    width: 280px;
+  }
+  
+  .field{
+    border: solid 2px rgb(20, 20, 20);
+    padding: 10px;
+  }
+  
+  .field:focus{
+    border-color: #18A383;
+  }
+  
+  .btn{
+      border-radius: 3px;
+      display: inline-block;
+      padding: 20px 15px;
+      text-decoration: none;
+      text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+      box-shadow: 0 1px 1px rgba(0,0,0,0.3); 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+  }
+  
+  .btn-green{
+      color: white;
+      background-color: #195a8f;
+  }
+  .btn-green:hover{
+      background-color: #138fad;	
+  }
+  .btn-green:active{
+      background-color: #287e94;
   }

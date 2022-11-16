@@ -57,7 +57,7 @@ profesional.
 
 
     <h4>Formularios</h4>
-    <button onclick="location.href='formularioEST.php'">Si eres estudiante o engresado</button>
+    <button onclick="location.href='formularioEST.php'">Si eres estudiante o egresado</button>
     <button onclick="location.href='formularioEMP.php'">Si eres representante de una empresa</button>
     <button onclick="location.href='formularioVANC.php'">Si quieres formar parte de las vacantes</button>
 </body>
