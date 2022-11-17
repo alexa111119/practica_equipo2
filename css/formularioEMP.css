@@ -6,7 +6,7 @@
   
   .form-register {
     width: 1000px;
-    background: #24303c;
+    background: #1b436c;
     padding: 30px;
     margin: auto;
     margin-top: 100px;
@@ -23,14 +23,14 @@
   
   .controls {
     width: 100%;
-    background: #24303c;
+    background: #ffffff;
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
     border: 1px solid #c56f1f;
     font-family: 'calibri';
     font-size: 18px;
-    color: white;
+
   }
   
   .form-register p {
@@ -52,7 +52,7 @@
   
   .form-register .botons {
     width: 100%;
-    background: #c56f1f;
+    background: #e67d1c;
     border: none;
     padding: 12px;
     color: white;

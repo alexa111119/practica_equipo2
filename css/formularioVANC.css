@@ -1,12 +1,13 @@
 form{
-  background-color: rgb(154, 218, 188);
-  border-radius: 3px;
-  color: rgb(22, 20, 20);
-  font-size: 0.8em;
-  padding: 35px;
-  margin: 0 auto;
-  width: 300px;
-  font-size: 15px;
+  width: 1000px;
+    background: #1b436c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
 }
 
 h1{
@@ -14,40 +15,24 @@ h1{
   margin-top: 5px;
   margin-bottom: 25px;
 }
-
-input, textarea{
-  border: 0;
-  outline: none;
-  width: 280px;
-}
-
-.field{
-  border: solid 2px rgb(20, 20, 20);
-  padding: 10px;
-}
-
-.field:focus{
-  border-color: #18A383;
-}
-
 .btn{
-	border-radius: 3px;
-	display: inline-block;
-	padding: 20px 15px;
-	text-decoration: none;
-	text-shadow: 0 1px 0 rgba(255,255,255,0.3);
-	box-shadow: 0 1px 1px rgba(0,0,0,0.3); 
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 17px;
+  width: 100%;
+  background: #e67d1c;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
 }
 
-.btn-green{
-	color: white;
-	background-color: #195a8f;
-}
-.btn-green:hover{
-	background-color: #138fad;	
-}
-.btn-green:active{
-	background-color: #287e94;
+.controls {
+  width: 100%;
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #c56f1f;
+  font-family: 'calibri';
+  font-size: 18px;
+
 }

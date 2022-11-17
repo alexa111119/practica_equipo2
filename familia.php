@@ -70,5 +70,10 @@
 <p>Estos acuerdos serán formalizados por escrito y firmados por el representante autorizado de  la Empresa o Institución colaboradora y el director del centro educativo. Cada una de las  partes recibirá y conservará un ejemplar original.</p>
 <p>Los documentos necesarios para la firma del acuerdo se pueden encontrar en el Anexo I,  Acuerdo Centro Educativo – Centro de Trabajo.</p>
 </div>
+
+<?php
+include_once 'footer.php';
+?>
+
 </body>
 </html>

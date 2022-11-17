@@ -40,7 +40,10 @@
 <div class="card">
 <a href="https://docs.google.com/document/d/1tfx00CDXpcUe3XWc0sIlZpKecrbXxSDlvlzQlSn5wfo/edit"> <img src="imagenes/descarga (3).png" alt=""></a>
 </div>
-</body>
+
+<?php
+include_once 'footer.php';
+?>
 </body>
 </html>
 
