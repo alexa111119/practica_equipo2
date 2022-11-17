@@ -1,8 +1,13 @@
 <?php
+$mysqli = new mysqli("localhost", "root", "", "practica_ipi");
 
-$conexion = mysqli_connect('localhost', 'root', '04272931', 'practica_ipi')
-  or die("Connection failed: " . mysqli_connect_error($mysqli));
+if ($mysqli->connect_errno) {
 
+<<<<<<< HEAD
+    echo "Fallo al conectar a MYSQL :(" . $mysqli->connect_errno . ")"
+    . $mysqli->connect_error;
+}
+=======
 
 
   insertar($conexion);
@@ -28,5 +33,6 @@ $conexion = mysqli_connect('localhost', 'root', '04272931', 'practica_ipi')
    
   
 echo "Connected successfully";
+>>>>>>> bb83fbb751379986be6a92beebf46edae022d991
 
 ?>
