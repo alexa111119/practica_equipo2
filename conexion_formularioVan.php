@@ -19,8 +19,8 @@ $conexion = mysqli_connect('localhost', 'root', '04272931', 'practica_ipi')
     $telefono_contacto = $_POST['telefono_contacto']?? null;
 
 
-    $consulta = "INSERT INTO vacantes(Nombre_empresa, Nombre_vacante, Funciones, Sueldo, Ubicacion, Tipo_contrato, Horario, Correo, Persona_contacto, Telefono, idEmpresas) 
-    VALUES('$nombre_empresa', '$vacante_nombre', '$funciones_puesto', '$sueldo', '$ubicacion', ' $tipo_contrato', '$horario', '$correo', '$Persona_contacto', '$telefono_contacto', '1')";
+    $consulta = "INSERT INTO vacantes(Nombre_empresa, Nombre_vacante, Funciones, Sueldo, Ubicacion, Tipo_contrato, Horario, Correo, Persona_contacto, Telefono,) 
+    VALUES('$nombre_empresa', '$vacante_nombre', '$funciones_puesto', '$sueldo', '$ubicacion', ' $tipo_contrato', '$horario', '$correo', '$Persona_contacto', '$telefono_contacto')";
   
     mysqli_query($conexion, $consulta);
     mysqli_close($conexion);

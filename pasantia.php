@@ -62,6 +62,8 @@ profesional.
     <button onclick="location.href='formularioVANC.php'">Si quieres formar parte de las vacantes</button>
 </body>
 
-</div>
+<?php
+include_once 'footer.php';
+?>
 
 </html>
