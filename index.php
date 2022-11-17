@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Departamento de vinculación laboral</title>
     <link rel="stylesheet" type="text/css" href="css/inicio.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 
@@ -80,10 +79,13 @@
 
 
 
-<h3>Mecanizado</h3>  <br> 
-<p>UC_352_3: Establecer los procesos de mecanizado de los productos por fabricar. <img src="imagenes/mec.png"></p>
+<h3>Mecanizado</h3><img src="imagenes/mec.png">  <br> 
+<p>UC_352_3: Establecer los procesos de mecanizado de los productos por fabricar. </p>
 <p>UC_353_3: Dibujar los productos por fabricar y desarrollar el programa de diseño asistido por computador (CAD). </p>
-<p> UC_362_3: Prevenir los riesgos laborales; y proteger el medioambiente en los procesos industriales de fabricación, instalación y mantenimiento.</p> <br> 
+<p> UC_362_3: Prevenir los riesgos laborales; y proteger el medioambiente en los procesos industriales de fabricación, instalación y mantenimiento.</p> <br>  <br> 
 
+<?php
+include_once 'footer.php';
+?>
 </body>
 </html>
