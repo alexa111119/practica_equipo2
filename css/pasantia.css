@@ -97,3 +97,16 @@ button{
       
       
 }
+
+.botones{
+    width: 100%;
+	margin: 20px;
+	border-radius: 6px;
+	overflow: hidden;
+
+	cursor: default;
+
+
+    
+
+}

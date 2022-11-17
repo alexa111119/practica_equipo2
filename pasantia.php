@@ -55,11 +55,18 @@ profesional.
 <li>Instalaciones Eléctricas</li>
     </ul>
 
+</div>
 
+<div class= "botones">
     <h4>Formularios</h4>
+
+    <br>
+    <br>
     <button onclick="location.href='formularioEST.php'">Si eres estudiante o egresado</button>
     <button onclick="location.href='formularioEMP.php'">Si eres representante de una empresa</button>
     <button onclick="location.href='formularioVANC.php'">Si quieres formar parte de las vacantes</button>
+
+    </div>
 </body>
 
 <?php
