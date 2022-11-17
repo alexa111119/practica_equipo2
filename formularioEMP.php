@@ -20,41 +20,44 @@
   </header>
 <body>
 
+
+<form action="conexionEMP.php" method="post">
+
   <h1>Formulario empresa</h1>
 
   <section class="form-register">
     
     <label class="">
       <p>Nombre de la empresa *</p>
-      <input class="controls" type="text" name="nombre_emp" id="nombre_emp" placeholder="Ingrese el nombre de la empresa">
+      <input class="controls" type="text" name="nombre_empresa" placeholder="Ingrese el nombre de la empresa">
     </label>
 
     <label class="">
       <p>RNC *</p>
-      <input class="controls" type="text" name="rnc" id="rnc" placeholder="Ingrese RNC">
+      <input class="controls" type="text" name="rnc" placeholder="Ingrese RNC">
     </label>
 
     <label class="">
       <p>¿Desea que se conozca la identidad de su empresa? *</p>
-      <input class="checkboxs" type="radio" name="identidad" id="identidadsi" value="si"> SI<br>
-      <input class="checkboxs" type="radio" name="identidad" id="identidadno" value="no"> NO
+      <input class="checkboxs" type="radio" name="identidad" value="si"> SI<br>
+      <input class="checkboxs" type="radio" name="identidad" value="no"> NO
     </label>
 
     <label class="">
       <p>¿Dispone su empresa de un Departamento de Formación dentro de la empresa? *</p>
-      <input class="checkboxs" type="radio" name="dispone" id="DFsi" value="si"> SI<br>
-      <input class="checkboxs" type="radio" name="dispone" id="DFno" value="no"> NO
+      <input class="checkboxs" type="radio" name="formacion" value="si"> SI<br>
+      <input class="checkboxs" type="radio" name="formacion" value="no"> NO
     </label>
 
     <label class="">
     <p>Alcance de la empresa *</p>
-      <input class="checkboxs" type="radio" name="alcance" id="ALCANCEnac"> Nacional/Local<br>
-      <input class="checkboxs" type="radio" name="alcance" id="ALCANCEmult"> Multinacional
+      <input class="checkboxs" type="radio" name="alcance"> Nacional/Local<br>
+      <input class="checkboxs" type="radio" name="alcance"> Multinacional
     </label>
 
     <label class=".prueba">
       <p>Actividad económica a la que se dedica la empresa *</p>
-      <textarea placeholder="Actividad económica a la que se dedica la empresa" cols="50" rows="10"></textarea>
+      <textarea placeholder="Actividad económica a la que se dedica la empresa" name="actividad" cols="50" rows="10"></textarea>
     </label>
 
     <label class="">
@@ -82,16 +85,16 @@
 
     <label class="">
       <p>Dirección *</p>
-      <input class="controls" type="text" name="direccion" id="direccion">
+      <input class="controls" type="text" name="direccion">
 
       <p>Sector *</p>
-      <input class="controls" type="text" name="sector" id="sector">
+      <input class="controls" type="text" name="sector">
 
       <p>Sección</p>
-      <input class="controls" type="text" name="seccion" id="seccion">
+      <input class="controls" type="text" name="seccion">
 
       <p>Municipio</p>
-      <input class="controls" type="text" name="municipio" id="municipio">
+      <input class="controls" type="text" name="municipio">
     </label>
 
 
@@ -384,26 +387,28 @@
 
     <label class="">
       <p>Teléfono Principal *</p>
-      <input placeholder="" class="controls" required="" data-error="Por favor ingrese su tel&eacute;fono principal." name="telefono" type="text">
+      <input placeholder="" class="controls" data-error="Por favor ingrese su tel&eacute;fono principal." name="tel_pri" type="text">
     </label>
 
     <label class="">
       <p>Teléfono Directo</p>
-      <input placeholder="" class="controls" data-error="Por favor ingrese su tel&eacute;fono directo." name="telefono_directo" type="text">
+      <input placeholder="" class="controls" data-error="Por favor ingrese su tel&eacute;fono directo." name="tel_dir" type="text">
     </label>
 
-    <label class="">Email *</label>
-    <input placeholder="" class="controls" required="" data-error="Por favor ingrese su email." name="email" type="email">
+    <label class="">
+      <p>Email *</p>
+      <input placeholder="" class="controls" data-error="Por favor ingrese su email." name="email" type="email">
+    </label>
+    
+    <label class="control-label col-xs-3" for="inputContraseña">
+      <p>Elija una contraseña *</p>
+      <input placeholder="" class="controls" data-error="Por favor ingrese su contrase&ntilde;a." name="contrasena" type="password" value="">
+    </label>
 
-    <label class="">Confirmación de Email *</label>
-    <input placeholder="" class="controls" required="" data-error="Por favor ingrese su email." name="" type="email" value="">
-
-    <label class="control-label col-xs-3" for="inputContraseña">Elija una contraseña *</label>
-    <input id="password" placeholder="" class="controls" required="" data-error="Por favor ingrese su contrase&ntilde;a." name="password" type="password" value="">
-
-    <label class="control-label col-xs-3" for="inputContraseña2">Confirme contraseña *</label>
-    <input id="password_confirmation" placeholder="" class="controls" required="" data-error="Por favor ingrese su contrase&ntilde;a." name="password_confirmation" type="password" value="">
+    <input type="submit" value="Enviar"class= "botons">
   </section>
+</form>
+
 
 </body>
 </html>
