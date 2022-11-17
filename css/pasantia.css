@@ -90,24 +90,26 @@ h3{
 button{
 
  
-        padding: 10px;
-        background: #1e5b94;
-        border: none;
-        color: white;
-        font-size: 20px;
-        /* pointer-events: none; */
-        cursor: pointer;
-      
+    padding: 10px;
+    background: #1e5b94;
+    border: none;
+    color: white;
+    font-size: 20px;
+    /* pointer-events: none; */
+    cursor: pointer;
+  
       
 }
 
 .botones{
     width: 100%;
-	margin: 20px;
+margin-left: 250px;
 	border-radius: 6px;
 	overflow: hidden;
 
 	cursor: default;
+
+    
 
 
     

@@ -126,3 +126,16 @@ font-size: 30px;
     font-size: 18px;
   
   }
+
+  .boton{
+
+    padding: 10px;
+        background: #1e5b94;
+        border: none;
+        color: white;
+        font-size: 20px;
+        /* pointer-events: none; */
+        cursor: pointer;
+      
+  
+  }

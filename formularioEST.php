@@ -26,9 +26,6 @@
 
 <h5>Formulario para estudiantes o egresados</h5>
 <section class="formulario">
-   
-   
-
 
     
     <form action="" class="formulario" method="POST">
@@ -181,7 +178,7 @@ function insertar ($mysqli){
     
 
     
-if($_POST["contra"]==$_POST["contra2"])
+if($_POST["contra"]==$_POST["contra2"]?? null)
 {
   mysqli_query($mysqli, $consulta);
     mysqli_close($mysqli);
@@ -195,5 +192,11 @@ echo "Las contraseñas no son iguales";
 
 
 ?>
+
+   
+<div class= "boton">
+<button onclick="location.href='control_indexE.php'">Control de estudiantes</button>
+</div>
+
 </body>
 </html>

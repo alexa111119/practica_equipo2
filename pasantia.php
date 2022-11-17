@@ -20,7 +20,28 @@
     <br>
     <br>
     <br>
+
+    <div class="letra">
+
+    <h4>Formularios</h4>
+
+    </div>
+    <div class= "botones">
+ 
+
+    <br>
+    <br>
+    <button onclick="location.href='formularioEST.php'">Si eres estudiante o egresado</button>
+    <button onclick="location.href='formularioEMP.php'">Si eres representante de una empresa</button>
+    <button onclick="location.href='formularioVANC.php'">Si quieres formar parte de las vacantes</button>
+
+    </div>
+
+    <br>
+    <br>
+    <br>
     <h4>Módulo de Formación en Centros de Trabajo (MFCT)</h4>
+    <br>
     <div class="contenido">
     <p >El Módulo de Formación en Centros de Trabajo es uno de los módulos que integran el currículo específico de la modalidad de Educación Técnica-Profesional.
         Es un proceso técnico en el cual los estudiantes asisten a una empresa para formar capacidades en el área laboral. Se puede definir como una capacitación que le da un cierre al ciclo del año escolar. Además, es una prueba de los conocimientos adquiridos en todo el desarrollo escolar. 
@@ -64,19 +85,14 @@ profesional.
     </ul>
 
 </div>
+<br>
+<br>
+<br>
 
-<div class= "botones">
-    <h4>Formularios</h4>
-
-    <br>
-    <br>
-    <button onclick="location.href='formularioEST.php'">Si eres estudiante o egresado</button>
-    <button onclick="location.href='formularioEMP.php'">Si eres representante de una empresa</button>
-    <button onclick="location.href='formularioVANC.php'">Si quieres formar parte de las vacantes</button>
-
-    </div>
 </body>
-
+<br>
+<br>
+<br>
 <?php
 include_once 'footer.php';
 ?>
