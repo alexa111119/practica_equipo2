@@ -21,7 +21,7 @@
 <body>
 
 
-<form action="conexionEMP.php" method="post">
+<form action="insertEMP.php" method="post">
 
   <h1>Formulario empresa</h1>
 
