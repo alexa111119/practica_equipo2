@@ -1,6 +1,6 @@
 <?php
 
-$conexion = mysqli_connect('localhost', 'root', '', 'practica_ipi')
+$conexion = mysqli_connect('localhost', 'root', '04272931', 'practica_ipi')
   or die("Connection failed: " . mysqli_connect_error($mysqli));
 
 

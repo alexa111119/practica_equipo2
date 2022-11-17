@@ -33,91 +33,91 @@
     
     <form action="" class="formulario" method="POST">
       <label for="Año de graduacion">Año de graduacion</label>
-      <input type="number" name="año" id="año">
+      <input type="number" name="año" id="año" class="controls">
 
       <label for="">Institución educativa</label>
-      <input type="text" name="institucion" id="insti"> 
+      <input type="text" name="institucion" id="insti"class="controls"> 
 
       <label for="">Matricula</label>
-      <input type="number" name="matricula" id="matri"> 
+      <input type="number" name="matricula" id="matri"class="controls"> 
      
      
 
       <label for="">Cedula</label>
-      <input type="number" name="cedula" id="ced"> 
+      <input type="number" name="cedula" id="ced"class="controls"> 
      
 
       <label for="">Carrera Tecnica</label>
-      <input type="text" name="carrera" id="ced"> 
+      <input type="text" name="carrera" id="ced"class="controls"> 
      
      
 
       <label for="">Tecnico Basico</label>
-      <input type="text" name="tecnico" id="ced"> 
+      <input type="text" name="tecnico" id="ced"class="controls"> 
      
      
       <label for="">Nombres</label>
-      <input type="text" name="nombres" id="ced"> 
+      <input type="text" name="nombres" id="ced"class="controls"> 
      
      
      
       <label for="">Apellidos</label>
-      <input type="text" name="apellidos" id="ced"> 
+      <input type="text" name="apellidos" id="ced"class="controls"> 
      
      
       <label for="">Fecha de nacimiento</label>
-      <input type="DATE" name="fecha" id="ced"> 
+      <input type="DATE" name="fecha" id="ced"class="controls"> 
      
       <label for="">Sexo</label>
-      <input type="text" name="sexo" id="ced"> 
+      <input type="text" name="sexo" id="ced"class="controls"> 
      
      
       <label for="">Direccion</label>
-      <input type="text" name="direccion" id="ced"> 
+      <input type="text" name="direccion" id="ced"class="controls"> 
 
       <label for="">Sector</label>
-      <input type="text" name="sector" id="ced"> 
+      <input type="text" name="sector" id="ced"class="controls"> 
      
 
       <label for="">Seccion</label>
-      <input type="text" name="seccion" id="ced"> 
+      <input type="text" name="seccion" id="ced"class="controls"> 
      
      
       <label for="">Municipio</label>
-      <input type="text" name="municipio" id="ced"> 
+      <input type="text" name="municipio" id="ced"class="controls"> 
      
 
      
       <label for="">Provincia</label>
-      <input type="text" name="provincia" id="ced"> 
+      <input type="text" name="provincia" id="ced"class="controls"> 
      
 
       <label for="">Pais</label>
-      <input type="text" name="pais" id="ced"> 
+      <input type="text" name="pais" id="ced"class="controls"> 
      
 
       <label for="">Telefono Residencial</label>
-      <input type="number" name="telefonoR" id="ced"> 
+      <input type="number" name="telefonoR" id="ced"class="controls"> 
      
       <label for="">Telefono Movil</label>
-      <input type="number" name="telefonoM" id="ced"> 
+      <input type="number" name="telefonoM" id="ced"class="controls"> 
      
 
 
 
       <label for="">Email</label>
-      <input type="text" name="email" id="ced"> 
+      <input type="text" name="email" id="ced"class="controls"> 
      
       <label for="">Contraseña</label>
-      <input type="password" name="contra" id="ced"> 
+      <input type="password" name="contra" id="ced"class="controls"> 
      
 
         
       <label for="">Confirma la contraseña</label>
-      <input type="password" name="contra2" id="ced"> 
+      <input type="password" name="contra2" id="ced"class="controls"> 
      
 
-      <input type="submit" value="Enviar">
+      <input type="submit" value="Enviar"class= "enviar">
 
     </form>
   </section>

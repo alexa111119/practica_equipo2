@@ -39,21 +39,30 @@ h5{
 font-size: 30px;
   }
 
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   form{
-    background-color: rgb(154, 199, 218);
-    border-radius: 3px;
-    color: rgb(22, 20, 20);
-    font-size: 0.8em;
-    padding: 35px;
-    margin: 0 auto;
-    width: 300px;
-    font-size: 15px;
+    width: 1000px;
+    background: #1b436c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
   }
   
   h1{
+    font-family: 'calibri';
+    color: #24303c;
     text-align: center;
-    margin-top: 5px;
-    margin-bottom: 25px;
+    margin-top: 60px;
+    margin-bottom: -35px
   }
   
   input, textarea{
@@ -91,4 +100,29 @@ font-size: 30px;
   }
   .btn-green:active{
       background-color: #287e94;
+  }
+
+
+  .enviar{
+
+    width: 100%;
+    background: #e67d1c;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+
+
+  .controls {
+    width: 100%;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #c56f1f;
+    font-family: 'calibri';
+    font-size: 18px;
+  
   }
