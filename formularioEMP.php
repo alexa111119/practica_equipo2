@@ -4,9 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="css/inicio.css">
   <link rel="stylesheet" href="http://localhost/practica_equipo2/css/formularioEMP.css">
   <title>Formulario empresa</title>
 </head>
+<header>
+  <nav class="menu">
+        <ul>
+        <li><a href="index.php">Inicio </a></li>
+     <li><a href="pasantia.php"> Pasantía </a></li>
+     <li><a href="colaboradores.php">Colabodores </a></li>
+     <li><a href="familia.php">Familia </a></li>
+        </ul>    
+    </nav>
+  </header>
 <body>
 
   <h1>Formulario empresa</h1>
@@ -41,7 +52,7 @@
       <input class="checkboxs" type="radio" name="alcance" id="ALCANCEmult"> Multinacional
     </label>
 
-    <label class="">
+    <label class=".prueba">
       <p>Actividad económica a la que se dedica la empresa *</p>
       <textarea placeholder="Actividad económica a la que se dedica la empresa" cols="50" rows="10"></textarea>
     </label>
@@ -377,33 +388,22 @@
     </label>
 
     <label class="">
-      <p>eléfono Directo</p>
+      <p>Teléfono Directo</p>
       <input placeholder="" class="controls" data-error="Por favor ingrese su tel&eacute;fono directo." name="telefono_directo" type="text">
     </label>
 
-<div class="form-group col-md-12">
-    <label class="control-label col-xs-3" for="email">Email *</label>
-    <div class="col-xs-3">
-        <input placeholder="" class="form-control" required="" data-error="Por favor ingrese su email." name="email" type="email">
-    </div>
-    <label class="control-label col-xs-3" for="email">Confirmación de Email *</label>
-    <div class="col-xs-3">
-        <input placeholder="" class="form-control" required="" data-error="Por favor ingrese su email." name="" type="email" value="">
-    </div>
-</div>                        <div class="form-group col-md-12">
-                            <label class="control-label col-xs-3" for="inputContraseña">Elija una contraseña *</label>
-                            <div class="col-xs-3">
-                                <input id="password" placeholder="" class="form-control" required="" data-error="Por favor ingrese su contrase&ntilde;a." name="password" type="password" value="">
-                            </div>
-                            <label class="control-label col-xs-3" for="inputContraseña2">Confirme contraseña *</label>
-                            <div class="col-xs-3">
-                                <input id="password_confirmation" placeholder="" class="form-control" required="" data-error="Por favor ingrese su contrase&ntilde;a." name="password_confirmation" type="password" value="">
-                            </div>
-                        </div>
+    <label class="">Email *</label>
+    <input placeholder="" class="controls" required="" data-error="Por favor ingrese su email." name="email" type="email">
 
+    <label class="">Confirmación de Email *</label>
+    <input placeholder="" class="controls" required="" data-error="Por favor ingrese su email." name="" type="email" value="">
 
+    <label class="control-label col-xs-3" for="inputContraseña">Elija una contraseña *</label>
+    <input id="password" placeholder="" class="controls" required="" data-error="Por favor ingrese su contrase&ntilde;a." name="password" type="password" value="">
+
+    <label class="control-label col-xs-3" for="inputContraseña2">Confirme contraseña *</label>
+    <input id="password_confirmation" placeholder="" class="controls" required="" data-error="Por favor ingrese su contrase&ntilde;a." name="password_confirmation" type="password" value="">
   </section>
-
 
 </body>
 </html>
