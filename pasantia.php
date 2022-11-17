@@ -17,7 +17,9 @@
  </ul>    </nav>
 </header>
 <body>
-    
+    <br>
+    <br>
+    <br>
     <h4>Módulo de Formación en Centros de Trabajo (MFCT)</h4>
     <div class="contenido">
     <p >El Módulo de Formación en Centros de Trabajo es uno de los módulos que integran el currículo específico de la modalidad de Educación Técnica-Profesional.
@@ -31,12 +33,17 @@ puede desempeñar las actividades propias de su profesión y adquirir una compet
 profesional.
     </p>
 </div>
+
+<br>
+
+<br>
 <h3>Tiempo que tiene cada taller para el MFCT </h3>
 
 
 <div class="card1">
     <p class="ul ">Talleres con 720 horas</p>
     <ul>
+    <br>
 <li>Confección y Patronaje</li>
 
 <li>Electromecánica de Vehículos</li>
@@ -47,6 +54,7 @@ profesional.
 
 <div class="card2">
     <p class="ul ">Talleres con 360 horas</p>
+    <br>
     <ul>
 <li>Desarrollo de Aplicaciones Informáticas</li>
 <li>Ensamblaje de Muebles</li>
