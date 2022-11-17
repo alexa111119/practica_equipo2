@@ -27,6 +27,9 @@
     color: #efefef;
     margin-bottom: 10px;
 }
+.pie-pagina .grupo-1 .red-social {
+    margin-left: 230px;
+}
 .pie-pagina .grupo-1 .red-social a{
     display: inline-block;
     text-decoration: none;
