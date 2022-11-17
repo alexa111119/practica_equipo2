@@ -11,7 +11,7 @@
 <body>
     
 
-<form action="conexion_formularioVan.php " method="post">
+<form action="InsertVacantes.php " method="post">
  
     <h1>Formulario de vacantes: </h1>
     <label> Nombre de la empresa:</label>
