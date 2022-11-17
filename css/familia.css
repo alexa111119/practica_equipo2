@@ -44,6 +44,7 @@ h1 {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #4c7aaf;
     text-align: center;
+    margin-top: 30px;
 }
 
 div {
@@ -69,17 +70,6 @@ div {
     max-width: 1000px;
     padding: 20px;
     margin: 0 auto;
-}
-
-.AColabcencen {
-    text-align: justify;
-    max-width: 1000px;
-    padding: 20px;
-    margin: 0 auto;
-}
-
-p {
-    text-align: center;
 }
 
 h3 {
