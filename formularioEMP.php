@@ -32,6 +32,12 @@
       <input class="checkboxs" type="checkbox" name="DFno" id="DFno"> NO
     </label>
 
+    <p>Alcance de la empresa *</p>
+    <label>
+      <input class="checkboxs" type="checkbox" name="DFi" id="DFsi"> Nacional/Local<br>
+      <input class="checkboxs" type="checkbox" name="DFno" id="DFno"> NO
+    </label>
+
     <p>Nombre de la empresa *</p>
     <input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña">
     <p>Nombre de la empresa *</p>

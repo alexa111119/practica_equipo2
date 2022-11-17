@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Departamento de vinculación laboral</title>
     <link rel="stylesheet" type="text/css" href="css/inicio.css">
-    <link rel="stylesheet" href="
-http://localhost/practica_equipo2/css/formularioEST.css" />
+    <link rel="stylesheet" href="http://localhost/practica_equipo2/css/formularioEST.css" />
 
 </head>
 
