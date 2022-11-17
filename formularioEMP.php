@@ -51,11 +51,11 @@
 
     <label class="">
     <p>Alcance de la empresa *</p>
-      <input class="checkboxs" type="radio" name="alcance"> Nacional/Local<br>
-      <input class="checkboxs" type="radio" name="alcance"> Multinacional
+      <input class="checkboxs" type="radio" name="alcance" value="Nacional/Local"> Nacional/Local<br>
+      <input class="checkboxs" type="radio" name="alcance" value="Multinacional"> Multinacional
     </label>
 
-    <label class=".prueba">
+    <label class="">
       <p>Actividad económica a la que se dedica la empresa *</p>
       <textarea placeholder="Actividad económica a la que se dedica la empresa" name="actividad" cols="50" rows="10"></textarea>
     </label>
