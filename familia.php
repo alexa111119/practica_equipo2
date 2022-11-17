@@ -21,6 +21,7 @@
 
 <h1>Familia</h1>
 <br> <br>
+ 
 
     <div class="FEstudiantes">
     <h3>Funciones estudiante bachillerato tecnico</h3> <br> 
@@ -55,15 +56,19 @@
 <br>
 <br>
 
-<div class="AColabsiscen">
+ <div class="AColabsiscen">
 
  <h3>Acuerdos de colaboración</h3> <br> 
 
  <h4>Acuerdo de colaboración entre el sistema educativo y el centro de trabajo:</h4> <br> 
  <p>Es el acuerdo formal entre el sistema educativo y un centro de trabajo para el apoyo al desarrollo de las prácticas formativas del MFCT. Es denominado como "Acuerdo de  colaboración Sistema Educativo – Centro de Trabajo". El mismo puede ser suscrito por el  centro de trabajo y la Dirección General de Educación Técnico profesional del MINERD. Este  acuerdo permite la vinculación del centro del trabajo con más de un centro del sistema  educativo, sin la necesidad de firmar acuerdos particulares entre centros educativos.
     Estos acuerdos serán formalizados por escrito, deberán ser firmados por el representante  autorizado de la Empresa o Institución colaboradora y por el Director de la DETP. Cada una  de las partes recibirá y conservará un ejemplar en original.
-    Los documentos necesarios para la firma del acuerdo se pueden encontrar en el Anexo I II y  III, Acuerdo Sistema Educativo – Centro de Trabajo.</p>
-</div>
+    Los documentos necesarios para la firma del acuerdo se pueden encontrar en el Anexo I II y  III, Acuerdo Sistema Educativo – Centro de Trabajo.</p>  <br>  <br> 
+ </div>
+ 
+ 
+
+
 
 <?php
 include_once 'footer.php';
