@@ -2,15 +2,7 @@
 $mysqli = new mysqli("localhost", "root", "", "practica_ipi");
 
 if ($mysqli->connect_errno) {
-
-<<<<<<< HEAD
-    echo "Fallo al conectar a MYSQL :(" . $mysqli->connect_errno . ")"
-    . $mysqli->connect_error;
-}
-=======
-
-
-  insertar($conexion);
+insertar($conexion);
   function insertar ($conexion){
     $nombre_empresa = $_POST['nombre_empresa'] ?? null;
     $vacante_nombre = $_POST['vacante_nombre'] ?? null;
@@ -28,11 +20,13 @@ if ($mysqli->connect_errno) {
   
     mysqli_query($conexion, $consulta);
     mysqli_close($conexion);
-    }
+}
+}
+  
+    
     
    
   
 echo "Connected successfully";
->>>>>>> bb83fbb751379986be6a92beebf46edae022d991
 
 ?>

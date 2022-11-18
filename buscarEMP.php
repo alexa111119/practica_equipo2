@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de empresas</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.4.24/sweetalert2.all.js"></script>
+
 </head>
 <body>
-    
 
-<h2>Lista de empresas</h2>
+<h3> Empresas </h3>
 
 <table border="2">
     <tr>
@@ -34,7 +34,9 @@
 
     <?php
     include_once 'conexionEMP.php';
-    $query = "SELECT * FROM empresas";
+
+    $Nombre_empresa=$_GET['Nombre_empresa'];
+    $query = "SELECT * FROM empresas WHERE Nombre_empresa like '%$Nombre_empresa%' or idEmpresas='$Nombre_empresa' ";
     $data = mysqli_query($mysqli, $query);
     $total = mysqli_num_rows($data);
 
@@ -59,36 +61,27 @@
             <td>" . $row['Pais'] . "</td>
             <td>" . $row['Telefono_principal'] . "</td>
             <td>" . $row['Telefono_directo'] . "</td>
-            <td> <a href= 'deleteEMP.php?idEmpresas=$row[idEmpresas]'>Borrar</td>
             </tr>";;
         }
     }
+    else{
     ?>
-</table>
 
- <br> 
-
-<form action="updateEMP.php" method="post">
-    <h3> Editar empresa:<h3> 
-    <h4> Ingrese el id de la empresa que quiere modificar: </h4>
-        <input type="text" name="id">
-        <input type="submit" name="actualizar" value="Actualizar">
-</form> 
-
-<br>
-<br>
-
-<form action="buscarEMP.php" method="GET">
-    <h3> Buscar empresa por nombre:<h3> 
-    <h4> Ingrese el nombre de la empresa que desea buscar o de la vacante: </h4>
-        <input type="text" name="Nombre_empresa">
-        <input type="submit" name="buscar" value="Buscar">
-</form> <br> <br>
-
-<form action="pasantia.php">
-<input type="submit" name="volver" value="Regresar a la pagina de pasantia">
-</form>
+        <script>
+              Swal.fire({
+                icon: 'warning',
+                title: 'Nombre o id Invalido',
+                text: 'Ops! Empresa no encontrada. Revise el nombre de la empresa'
+            }).then(function () {
+                window.location.href = 'mostrarEMP.php';
+            })  
 
 
+            <?php
+   
+     }
+     ?>
+        </script>
+    </table>
 </body>
 </html>

@@ -64,23 +64,23 @@
     <p>Industria *</p>
       <select required="" data-error="Por favor seleccione su curso." name="industria">
       <option value=""></option>
-      <option value="agricola">Agrícola</option>
-      <option value="comercio">Comercio</option>
-      <option value="ganaderia">Ganadería</option>
-      <option value="indextraccion">Industria de Extracción</option>
-      <option value="indmanufactura">Industria de Manufactura</option>
-      <option value="servicio">Servicio</option>
-      <option value="otra">Otra</option></select>
+      <option value="Agricola">Agrícola</option>
+      <option value="Comercio">Comercio</option>
+      <option value="Ganaderia">Ganadería</option>
+      <option value="Industria de extraccion">Industria de Extracción</option>
+      <option value="Manufactura">Industria de Manufactura</option>
+      <option value="Servicio">Servicio</option>
+      <option value="Otra">Otra</option></select>
     </label>
 
     <label class="">
       <p>Tamaño de la Empresa *</p>
       <select required="" data-error="Por favor seleccione su curso." name="tamano">
       <option value=""></option>
-      <option value="micro">Micro</option>
-      <option value="pequena">Peque&ntilde;a</option>
-      <option value="mediana">Mediana</option>
-      <option value="grande">Grande</option></select>
+      <option value="Micro">Micro</option>
+      <option value="Pequena">Peque&ntilde;a</option>
+      <option value="Mediana">Mediana</option>
+      <option value="Grande">Grande</option></select>
     </label>
 
     <label class="">
@@ -408,6 +408,10 @@
     <input type="submit" value="Enviar"class= "botons">
   </section>
 </form>
+
+<div class="boton">
+  <button onclick="location.href='mostarEmp.php'">Control de empresas</button>
+  <div>
 
 
 </body>
