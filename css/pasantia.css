@@ -31,7 +31,7 @@ header{
 }
 
 h4{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
     text-align: center;
 
@@ -72,6 +72,7 @@ h3{
 	transition: all 400ms ease-out;
 	cursor: default;
     text-align: center;
+  
 }
 
 .card2{
@@ -91,23 +92,27 @@ button{
 
  
     padding: 10px;
-    background: #1e5b94;
+    background: #ffffff;
     border: none;
-    color: white;
+    color:#4c7aaf;
     font-size: 20px;
     /* pointer-events: none; */
     cursor: pointer;
-  
+    margin-left: 130px;
+
       
 }
 
+
+
 .botones{
     width: 100%;
-margin-left: 250px;
+
 	border-radius: 6px;
 	overflow: hidden;
 
 	cursor: default;
+    background-color: #4c7aaf;
 
     
 
@@ -115,3 +120,4 @@ margin-left: 250px;
     
 
 }
+

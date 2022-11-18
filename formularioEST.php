@@ -23,7 +23,8 @@
  
 <body>
 
-
+<br>
+<br>
 <h5>Formulario para estudiantes o egresados</h5>
 <section class="formulario">
 
@@ -178,7 +179,7 @@ function insertar ($mysqli){
     
 
     
-if($_POST["contra"]==$_POST["contra2"]?? null)
+if($_POST["contra"]?? null==$_POST["contra2"])
 {
   mysqli_query($mysqli, $consulta);
     mysqli_close($mysqli);

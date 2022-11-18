@@ -2,8 +2,6 @@
  require ("conexion.php");
  
 
- 
-
  //$id= $_POST ['id'];
 
  $query = "UPDATE `estudiantes` SET Año_graduacion= '$_POST[an]', Institucion= '$_POST[instituto]' , Cedula= '$_POST[cedula]'
@@ -13,9 +11,8 @@
  Pais_nacionalidad= '$_POST[pais]', Telefono_residencial= '$_POST[tR]', Telefono_movil= '$_POST[tM]', Email= '$_POST[email]',
  Contraseña = '$_POST[contra]'where ID_estudiantes= '$_POST[id]'";
 
-
  mysqli_query($mysqli, $query);
 
- header ("location: control_indexE.php?insert=success");
+header ("location: control_indexE.php?insert=success");
 
-?>
+?> 

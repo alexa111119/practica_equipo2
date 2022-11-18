@@ -1,0 +1,28 @@
+h3{
+    width: 100%;
+	margin: 20px;
+	border-radius: 6px;
+	overflow: hidden;
+	background:#fff;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	cursor: default;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+form{
+    width: 1000px;
+    background: #4c7aaf;
+    padding: 50px;
+    margin: auto;
+
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: rgb(255, 255, 255);
+ 
+  }
+  

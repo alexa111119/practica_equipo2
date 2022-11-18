@@ -12,7 +12,7 @@
 <ul>
 <li><a href="index.php">Inicio </a></li>
      <li><a href="pasantia.php"> Pasantía </a></li>
-     <li><a href="colaboradores.php">Colabodores </a></li>
+     <li><a href="colaboradores.php">Colaboradores </a></li>
      <li><a href="familia.php">Familia </a></li>
  </ul>    </nav>
 </header>
@@ -24,7 +24,7 @@
     <div class="letra">
 
     <h4>Formularios</h4>
-
+<br>
     </div>
     <div class= "botones">
  
@@ -34,7 +34,9 @@
     <button onclick="location.href='formularioEST.php'">Si eres estudiante o egresado</button>
     <button onclick="location.href='formularioEMP.php'">Si eres representante de una empresa</button>
     <button onclick="location.href='formularioVANC.php'">Si quieres formar parte de las vacantes</button>
-
+<br>
+<br>
+<br>
     </div>
 
     <br>
@@ -62,6 +64,8 @@ profesional.
 
 
 <div class="card1">
+    <br>
+    <br>
     <p class="ul ">Talleres con 720 horas</p>
     <ul>
     <br>
@@ -70,10 +74,14 @@ profesional.
 <li>Electromecánica de Vehículos</li>
 <li>Mecanizado</li>
     </ul>
-
+<br>
+<br>
+<br>
 </div>
 
 <div class="card2">
+    <br>
+    <br>
     <p class="ul ">Talleres con 360 horas</p>
     <br>
     <ul>
@@ -83,7 +91,8 @@ profesional.
 <li>Gestión Administrativa y Tributaria</li>
 <li>Instalaciones Eléctricas</li>
     </ul>
-
+<br>
+<br>
 </div>
 <br>
 <br>

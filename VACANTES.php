@@ -4,14 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://localhost/practica_equipo2/css/vacantecontrol.css" />
     <title>Document</title>
 </head>
 <body>
 
-<h2> Lista de vacantes:</h2>
+<div class="buscar">
 
+<form action="updateVacantes.php" method="post">
+
+<h3> Editar vacante:<h3> 
+
+<h4> Ingrese el id de la vacante que quiere modificar </h4>
+<input type="text" name="id">
+<input type="submit" name="actualizar" value="Actualizar">
+</form> <br> <br>
+
+<form action="BuscarVacantes.php" method="GET">
+
+<h3> Buscar vacante por el nombre de la empresa:<h3> 
+
+<h4> Ingrese el nombre de la empresa  </h4>
+<input type="text" name="Nombre_empresa">
+<input type="submit" name="buscar" value="Buscar">
+</form> <br>
+<br>
+
+<form action="pasantia.php">
+ <input type="submit" name="volver" value="Regresar a la pagina pasantia">
+</form> 
+
+
+<br>
+<br>
+</div>
 <table border="1" cellspacing="2" cellpadding="2"> 
 
+<h3>Vacantes registradas</h3>
  <tr> 
     <th>idVacantes</th>
     <th>Nombre de la empresa</th>
@@ -52,27 +81,9 @@ $query = "SELECT * FROM vacantes";
     }
  }
  ?> 
- <table>
+
 
  <br> 
-
- <form action="updateVacantes.php" method="post">
-
-<h3> Editar vacante:<h3> 
-
-<h4> Ingrese el id de la vacante que quiere modificar: </h4>
-<input type="text" name="id">
-<input type="submit" name="actualizar" value="Actualizar">
-</form> <br> <br>
-
-<form action="BuscarVacantes.php" method="GET">
-
-<h3> Buscar vacante por el nombre de la empresa:<h3> 
-
-<h4> Ingrese el nombre de la empresa con la vacante que desea buscar o de la vacante: </h4>
-<input type="text" name="Nombre_empresa">
-<input type="submit" name="buscar" value="Buscar">
-</form>
 
 
 </body>

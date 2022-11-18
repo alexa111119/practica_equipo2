@@ -41,6 +41,7 @@ require("conexion.php");
 $nombre= $_REQUEST['nombre'];
 
 $query = "SELECT * FROM estudiantes WHERE Nombres LIKE'%$nombre%'";
+
 $data =mysqli_query($mysqli, $query);
 $total =mysqli_num_rows($data);
 

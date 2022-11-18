@@ -12,7 +12,7 @@
         <ul>
             <li><a href="index.php">Inicio </a></li>
             <li><a href="pasantia.php"> Pasantía </a></li>
-            <li><a href="colaboradores.php">Colabodores </a></li>
+            <li><a href="colaboradores.php">Colaboradores </a></li>
             <li><a href="familia.php">Familia </a></li>
         </ul>    
     </nav>

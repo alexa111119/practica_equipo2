@@ -36,8 +36,8 @@
 
 
   Tipo de contrato: 
-<INPUT TYPE="radio" class="" NAME="tipo_contrato">Temporal
- <INPUT TYPE="radio" class="" NAME="tipo_contrato"> Fijo  
+<INPUT TYPE="radio" class="" NAME="tipo_contrato" value="Temporal">Temporal
+ <INPUT TYPE="radio" class="" NAME="tipo_contrato" value="Fijo"> Fijo  
  <br> <br> 
  
     <label>Horario:</label> 
@@ -54,7 +54,12 @@
     <input type="text" class="controls" name="telefono_contacto"> <br> <br> 
 
  <INPUT TYPE="submit" NAME="enviar" class="btn btn-green" VALUE="Enviar información">
+
+
 </form>
 
+<div class= "boton">
+<button onclick="location.href='VACANTES.php'">Control de vacantes</button>
+</div>
 </body>
 </html>

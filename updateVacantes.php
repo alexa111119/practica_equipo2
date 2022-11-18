@@ -1,3 +1,6 @@
+
+    <link rel="stylesheet" href="http://localhost/practica_equipo2/css/actualizarV.css" />
+
 <?php
 include_once 'conexion_formularioVan.php';
 
@@ -24,7 +27,7 @@ if ($resultCheck > 0){
     $Telefono=$row['Telefono'];
 }
 ?>
-
+<h3>Edite los datos que desea actualizar</h3>
 <form action="actualizarVacantes.php" method="post">
 <label for="idVacante">idVacante: </label>
 <input type="text" name="id"  value="<?php echo $id?>" ><br><br>

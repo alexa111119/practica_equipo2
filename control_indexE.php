@@ -4,16 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://localhost/practica_equipo2/css/controlE.css" />
     <title>Document</title>
 </head>
 <body>
 
-<h3>Buscar estudiante</h3>
-
+<div class="buscar">
+<h3>Buscar en la tabla</h3>
+<h6>Ingresa el nombre del estudiante</h6>
 <form action="buscarE.php" method= "POST">
 <input type="text"name="nombre">
-<input type="submit" name= "enviar" value="buscar">
+<input type="submit" name= "enviar" value="Buscar">
+<br>
+<br>
 
+
+<br>
+<br>
+</div>
 </form>
 
 
@@ -22,7 +30,10 @@
 </form>
 <br>
 <br>
-<table border="2">
+<div class="tabla">
+    <h4>Estudiantes registrados</h4>
+<table>
+    
 
     <tr>
     <th>ID</th>
@@ -93,6 +104,7 @@ echo "<tr>
 }
 
 ?>
+</div>
 </table>
 
 </body>
