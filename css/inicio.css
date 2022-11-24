@@ -1,39 +1,4 @@
-header{
-    width: 100%;
-    background-color: #4c7aaf;
-}
 
-body{
-    background: rgb(255, 251, 251);
-}
-
-.menu ul{
-    margin: 0;
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: flex-end;
-
-}
-
-.menu li{
-    border-right: 2px solid rgba(255, 255, 255, 0.801);
-    /* border-right: 1px solid #fff; */
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 18px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-.menu li:hover{
-    background: rgba(0, 0, 0, 0.3);
-}
-
-.menu li a{
-    display: block;
-    padding: 15px 20px;
-    color: white;
-    text-decoration: none;
-}
 
 h1, h2{
  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -61,17 +26,18 @@ h3{
   
 }
 
-.text1{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 5px;
-    margin: 10px;
-   margin-left: 30px;
-   text-align: center;
-}
 
-img{
+
+.imgg img{
     float: right;
     height: 200px;
     width: 200px;
 }
 
+
+
+.text1{
+
+text-align: center;
+background-color: rgb(251, 251, 251);
+}

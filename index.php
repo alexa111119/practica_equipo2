@@ -6,24 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Departamento de vinculación laboral</title>
     <link rel="stylesheet" type="text/css" href="css/inicio.css">
-
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+ <script type= "text/javascript" src="js/bootstrap.min.js"></script>
+ <script type= "text/javascript" src="js/jquery-3.6.1.min"></script>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
     <header> 
-
-        <nav class="menu">
-    <ul>
-     <li><a href="index.php">Inicio </a></li>
-     <li><a href="pasantia.php"> Pasantía </a></li>
-     <li><a href="colaboradores.php">Colaboradores </a></li>
-     <li><a href="familia.php">Familia </a></li>
-
- 
-     </ul>    </nav>
+    <?php
+include_once 'menu.php';
+?>
     
     </header>
 
   <body>  
+<br>
+<br>
+
     <H1> ¿Quiénes somos?</H1>
 
     <P class="text1">Somo una institución modelo en la educación técnico profesional,con propuestas educativas y pastorales concretas y de calidad,<br> 
@@ -33,7 +32,7 @@
          las exigencias del mundo actual. </P> 
 
     <h2> Nuestro talleres y su perfil:</h2>     
-
+<div class="imgg">
 <h3 >Confeccion y patronaje: </h3> <img src="imagenes/cyp.png">  <br> 
 <p> MF_407_2: Corte de tejidos y laminados. </p>
 <p> MF_408_2: Corte de pieles y cueros.</p>
@@ -87,6 +86,8 @@
 <p>UC_352_3: Establecer los procesos de mecanizado de los productos por fabricar. </p>
 <p>UC_353_3: Dibujar los productos por fabricar y desarrollar el programa de diseño asistido por computador (CAD). </p>
 <p> UC_362_3: Prevenir los riesgos laborales; y proteger el medioambiente en los procesos industriales de fabricación, instalación y mantenimiento.</p> <br>  <br> 
+
+</div>
 
 <?php
 include_once 'footer.php';

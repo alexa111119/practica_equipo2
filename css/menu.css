@@ -1,0 +1,17 @@
+.container-fluid{
+    background-color: #4c7aafd7;
+ 
+    
+}
+ .nav-item a {
+
+font-size: 25px;
+
+ }
+
+
+.container-fluid li:hover{
+  background-color: rgb(177, 207, 234);
+}
+
+

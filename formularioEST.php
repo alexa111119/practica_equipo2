@@ -7,6 +7,10 @@
     <title>Departamento de vinculación laboral</title>
     <link rel="stylesheet" type="text/css" href="css/inicio.css">
     <link rel="stylesheet" href="http://localhost/practica_equipo2/css/formularioEST.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+ <script type= "text/javascript" src="js/bootstrap.min.js"></script>
+ <script type= "text/javascript" src="js/jquery-3.6.1.min"></script>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
 
@@ -28,6 +32,9 @@
 <h5>Formulario para estudiantes o egresados</h5>
 <section class="formulario">
 
+<?php
+  include_once 'alerta.php';
+?>
     
     <form action="" class="formulario" method="POST">
       <label for="Año de graduacion">Año de graduacion</label>
@@ -179,14 +186,16 @@ function insertar ($mysqli){
     
 
     
-if($_POST["contra"]?? null==$_POST["contra2"])
+if($_POST["contra"]==$_POST["contra2"])
 {
   mysqli_query($mysqli, $consulta);
     mysqli_close($mysqli);
     echo "Los datos fueron enviados";
 }else{
 
-echo "Las contraseñas no son iguales";
+
+  include_once 'alerta.php';
+
 }
 
 }
@@ -194,10 +203,6 @@ echo "Las contraseñas no son iguales";
 
 ?>
 
-   
-<div class= "boton">
-<button onclick="location.href='control_indexE.php'">Control de estudiantes</button>
-</div>
-
+  
 </body>
 </html>

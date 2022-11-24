@@ -5,17 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="http://localhost/practica_equipo2/css/formularioVANC.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.4.24/sweetalert2.all.js"></script>
     <title>Formulario de vacantes</title>
 </head>
 
 <body>
     
+<?php
 
+require ("conexion.php");
+
+$ID= $_REQUEST['id_empresa'];
+
+$sql = "SELECT idEmpresas, Nombre_empresa FROM empresas WHERE idEmpresas=$ID;";
+
+$result= mysqli_query($mysqli, $sql);
+$resultCheck= mysqli_num_rows($result);
+
+if ($resultCheck > 0 ){
+    $row = mysqli_fetch_assoc($result);
+    $id=$row ['idEmpresas'];
+    $nom=$row ['Nombre_empresa'];
+   
+
+
+
+?>
 <form action="InsertVacantes.php " method="post">
  
     <h1>Formulario de vacantes: </h1>
+
+    <label> ID de la empresa:</label>
+    <input type="text"  class="controls" name="id_emp"  value="<?php echo $id?>"> <br>  <br> 
+
+
+    
     <label> Nombre de la empresa:</label>
-    <input type="text"  class="controls" name="nombre_empresa"> <br>  <br> 
+    <input type="text"  class="controls" name="nombre_empresa" value="<?php echo $nom?>"> <br>  <br> 
 
   
 
@@ -58,8 +84,30 @@
 
 </form>
 
-<div class= "boton">
-<button onclick="location.href='VACANTES.php'">Control de vacantes</button>
+
+<?php
+}
+
+
+else{
+  ?>
+  <script>
+        Swal.fire({
+          icon: 'warning',
+          title: 'Empresa invalida',
+          text: 'Empresa no registrada en el sistema, no se puede crear la vacante'
+      }).then(function () {
+          window.location.href = 'formulario.php';        })  
+  </script>
+ ;
+
+
+<?php
+
+}
+?>
+
+
 </div>
 </body>
 </html>

@@ -5,11 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de empresas</title>
+    <link rel="stylesheet" href="http://localhost/practica_equipo2/css/mostrarEMP.css" />
 </head>
 <body>
     
+<br> 
+<div class= "buscar">
 
-<h2>Lista de empresas</h2>
+<form action="updateEMP.php" method="post">
+    <h3> Editar empresa:<h3> 
+    <h4> Ingrese el id de la empresa que quiere modificar: </h4>
+        <input type="text" name="id">
+        <input type="submit" name="actualizar" value="Actualizar">
+</form> 
+
+<br>
+<br>
+
+<form action="buscarEMP.php" method="GET">
+    <h3> Buscar empresa por nombre:<h3> 
+    <h4> Ingrese el nombre de la empresa que desea buscar o de la vacante: </h4>
+        <input type="text" name="Nombre_empresa">
+        <input type="submit" name="buscar" value="Buscar">
+</form> <br> <br>
+
+<form action="pasantia.php">
+<input type="submit" name="volver" value="Regresar a la pagina de pasantia">
+</form>
+<br>
+<br>
+</div>
+
+<h2>Empresas registradas</h2>
 
 <table border="2">
     <tr>
@@ -41,7 +68,8 @@
     if($total!=0){
         while($row=mysqli_fetch_assoc($data)){
 
-            echo "<tr> <td>" . $row['idEmpresas'] . "</td>
+            echo "<tr>
+            <td>" . $row['idEmpresas'] . "</td>
             <td>" . $row['Nombre_empresa'] . "</td>
             <td>" . $row['RNC'] . "</td>
             <td>" . $row['Identidad'] . "</td>
@@ -58,12 +86,14 @@
             <td>" . $row['Pais'] . "</td>
             <td>" . $row['Telefono_principal'] . "</td>
             <td>" . $row['Telefono_directo'] . "</td>
-            </tr>";
+            <td> <a href= 'deleteEMP.php?idEmpresas=$row[idEmpresas]'>Borrar</td>
+            </tr>";;
         }
     }
     ?>
-
 </table>
+
+
 
 </body>
 </html>

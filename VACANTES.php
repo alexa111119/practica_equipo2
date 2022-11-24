@@ -20,6 +20,8 @@
 <input type="submit" name="actualizar" value="Actualizar">
 </form> <br> <br>
 
+
+
 <form action="BuscarVacantes.php" method="GET">
 
 <h3> Buscar vacante por el nombre de la empresa:<h3> 

@@ -12,19 +12,19 @@
 <h3> Vacantes </h3>
 
 <table border="2">
-     <tr>
-     <th>idVacantes</th>
-    <th>Nombre de la empresa</th>
-    <th>Nombre de la vacante</th>
-    <th>Funciones o perfil del puesto</th>
-    <th>Sueldo</th>
-    <th>Ubicacion</th>
-    <th>Tipo del contrato</th>
-    <th>Horario</th>
-    <th>Correo del responsable</th>
-    <th>Persona de contacto</th>
-    <th>Telefono del contacto</th>
-     </tr>
+    <tr>
+        <th>idVacantes</th>
+        <th>Nombre de la empresa</th>
+        <th>Nombre de la vacante</th>
+        <th>Funciones o perfil del puesto</th>
+        <th>Sueldo</th>
+        <th>Ubicacion</th>
+        <th>Tipo del contrato</th>
+        <th>Horario</th>
+        <th>Correo del responsable</th>
+        <th>Persona de contacto</th>
+        <th>Telefono del contacto</th>
+    </tr>
    
      <?php
      include_once 'conexion_formularioVan.php';

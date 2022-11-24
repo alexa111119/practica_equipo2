@@ -6,42 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pasantia</title>
     <link rel="stylesheet" type="text/css" href="http://localhost/practica_equipo2/css/pasantia.css">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<script type= "text/javascript" src="js/bootstrap.min.js"></script>
+<script type= "text/javascript" src="js/jquery-3.6.1.min"></script>
+    
 </head>
 <header> 
-    <nav class="menu">
-<ul>
-<li><a href="index.php">Inicio </a></li>
-     <li><a href="pasantia.php"> Pasantía </a></li>
-     <li><a href="colaboradores.php">Colaboradores </a></li>
-     <li><a href="familia.php">Familia </a></li>
- </ul>    </nav>
+<?php
+include_once 'menu.php';
+?>
+
 </header>
 <body>
     <br>
-    <br>
-    <br>
-
-    <div class="letra">
-
-    <h4>Formularios</h4>
-<br>
-    </div>
-    <div class= "botones">
  
-
-    <br>
-    <br>
-    <button onclick="location.href='formularioEST.php'">Si eres estudiante o egresado</button>
-    <button onclick="location.href='formularioEMP.php'">Si eres representante de una empresa</button>
-    <button onclick="location.href='formularioVANC.php'">Si quieres formar parte de las vacantes</button>
-<br>
-<br>
-<br>
-    </div>
-
-    <br>
-    <br>
-    <br>
     <h4>Módulo de Formación en Centros de Trabajo (MFCT)</h4>
     <br>
     <div class="contenido">
@@ -94,9 +73,9 @@ profesional.
 <br>
 <br>
 </div>
-<br>
-<br>
-<br>
+
+
+
 
 </body>
 <br>

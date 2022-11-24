@@ -6,19 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Familia</title>
     <link rel="stylesheet" type="text/css" href="css/familia.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<script type= "text/javascript" src="js/bootstrap.min.js"></script>
+<script type= "text/javascript" src="js/jquery-3.6.1.min"></script>
 </head>
 <header> 
-    <nav class="menu">
-        <ul>
-            <li><a href="index.php">Inicio </a></li>
-            <li><a href="pasantia.php"> Pasantía </a></li>
-            <li><a href="colaboradores.php">Colaboradores </a></li>
-            <li><a href="familia.php">Familia </a></li>
-        </ul>    
-    </nav>
+<?php
+include_once 'menu.php';
+?>
 </header>
 <body>
-
+<br>
+<br>
 <h1>Familia</h1>
 <br> <br>
  
