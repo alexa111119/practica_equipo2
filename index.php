@@ -10,6 +10,7 @@
  <script type= "text/javascript" src="js/bootstrap.min.js"></script>
  <script type= "text/javascript" src="js/jquery-3.6.1.min"></script>
  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
 </head>
 
     <header> 
@@ -24,6 +25,7 @@ include_once 'menu.php';
 <br>
 
     <H1> ¿Quiénes somos?</H1>
+<br>
 
     <P class="text1">Somo una institución modelo en la educación técnico profesional,con propuestas educativas y pastorales concretas y de calidad,<br> 
         con un personal altamente cualificado e identificado con el estilo pedagógico salesiano, que involucre la familia y promueva <br>
@@ -32,6 +34,8 @@ include_once 'menu.php';
          las exigencias del mundo actual. </P> 
 
     <h2> Nuestro talleres y su perfil:</h2>     
+    <br>
+    <br>
 <div class="imgg">
 <h3 >Confeccion y patronaje: </h3> <img src="imagenes/cyp.png">  <br> 
 <p> MF_407_2: Corte de tejidos y laminados. </p>

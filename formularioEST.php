@@ -14,16 +14,6 @@
 
 </head>
 
-    <header> 
-        <nav class="menu">
-    <ul>
-     <li><a href="index.php">Inicio </a></li>
-     <li><a href="pasantia.php"> Pasantía </a></li>
-     <li><a href="colaboradores.php">Colabodores </a></li>
-     <li><a href="familia.php">Familia </a></li>
-     </ul>    </nav>
-    </header>
-
  
 <body>
 
@@ -32,10 +22,7 @@
 <h5>Formulario para estudiantes o egresados</h5>
 <section class="formulario">
 
-<?php
-  include_once 'alerta.php';
-?>
-    
+
     <form action="" class="formulario" method="POST">
       <label for="Año de graduacion">Año de graduacion</label>
       <input type="number" name="año" id="año" class="controls">

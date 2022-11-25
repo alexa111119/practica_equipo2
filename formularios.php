@@ -24,7 +24,7 @@ include_once 'menu.php';
   
   <div class="card-body">
     <h5 class="card-title">Estudiantes o egresados</h5>
-    <p class="card-text"> texto para descripcion</p>
+    <p class="card-text">   </p>
   </div>
   
   <div class="card-body">
@@ -40,7 +40,7 @@ include_once 'menu.php';
   
   <div class="card-body">
     <h5 class="card-title">Empresas</h5>
-    <p class="card-text"> texto para descripcion</p>
+    <p class="card-text">  </p>
   </div>
   
   <div class="card-body">
@@ -56,7 +56,7 @@ include_once 'menu.php';
   
   <div class="card-body">
     <h5 class="card-title">Vacantes</h5>
-    <p class="card-text"> texto para descripcion</p>
+    <p class="card-text"> </p>
   </div>
   
   <div class="card-body">
